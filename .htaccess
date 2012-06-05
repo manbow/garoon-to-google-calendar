@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^([0-9,a-z,A-Z,_]+).ics/([0-9,a-z,A-Z,_]+)/([0-9,a-z,A-Z,_]+)/+ /index.php?data=$1&user=$2&pass=$3
+
+Allow from all
